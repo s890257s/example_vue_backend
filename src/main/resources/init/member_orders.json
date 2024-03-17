@@ -1,0 +1,157 @@
+[
+	{
+		"memberOrderId": "1",
+		"orderDate": "2024-02-01",
+		"orderStatus": "已完成",
+		"totalAmount": "103970",
+		"shippingAddress": "台北市大安區敦化南路一段",
+		"paymentMethod": "貨到付款",
+		"memberOrderDetails": [
+			{
+				"orderDetailId": "1",
+				"quantity": "1",
+				"unitPrice": "32990",
+				"productName": "華碩 H-S501MD-71270F002W【羅技 LIFT人體工學滑鼠 優惠組】",
+				"product": {
+					"productId": "1"
+				}
+			},
+			{
+				"orderDetailId": "2",
+				"quantity": "1",
+				"unitPrice": "38990",
+				"productName": "O2021企業版優惠組華碩 H-S501MD-71270F002W",
+				"product": {
+					"productId": "2"
+				}
+			},
+			{
+				"orderDetailId": "3",
+				"quantity": "1",
+				"unitPrice": "31990",
+				"productName": "華碩 H-S501MD-71270F002W【M365 個人版 優惠組】",
+				"product": {
+					"productId": "3"
+				}
+			}
+		],
+		"member": {
+			"memberId": "1"
+		}
+	},
+	{
+		"memberOrderId": "2",
+		"orderDate": "2024-02-02",
+		"orderStatus": "已完成",
+		"totalAmount": "24900",
+		"shippingAddress": "台北市大安區敦化南路一段",
+		"paymentMethod": "貨到付款",
+		"memberOrderDetails": [
+			{
+				"orderDetailId": "4",
+				"quantity": "1",
+				"unitPrice": "24900",
+				"productName": "Aspire TC-1770系列 - i5處理器 - 16G記憶體1T+512G SSD / Win11家用版電腦【24型螢幕 優惠組】",
+				"product": {
+					"productId": "4"
+				}
+			}
+		],
+		"member": {
+			"memberId": "1"
+		}
+	},
+	{
+		"memberOrderId": "3",
+		"orderDate": "2024-02-03",
+		"orderStatus": "已完成",
+		"totalAmount": "31990",
+		"shippingAddress": "台北市大安區敦化南路一段",
+		"paymentMethod": "貨到付款",
+		"memberOrderDetails": [
+			{
+				"orderDetailId": "5",
+				"quantity": "1",
+				"unitPrice": "24900",
+				"productName": "Aspire TC-1770系列 - i5處理器 - 16G記憶體1T+512G SSD / Win11家用版電腦【M365家庭版 優惠組】",
+				"product": {
+					"productId": "5"
+				}
+			}
+		],
+		"member": {
+			"memberId": "1"
+		}
+	},
+	{
+		"memberOrderId": "4",
+		"orderDate": "2024-02-04",
+		"orderStatus": "已完成",
+		"totalAmount": "51799",
+		"shippingAddress": "高雄市前鎮區成功二路",
+		"paymentMethod": "貨到付款",
+		"memberOrderDetails": [
+			{
+				"orderDetailId": "6",
+				"quantity": "1",
+				"unitPrice": "23899",
+				"productName": "Aspire TC-1770系列 - i5處理器 - 16G記憶體1T+512G SSD / Win11家用版電腦【M365個人版 優惠組】",
+				"product": {
+					"productId": "6"
+				}
+			},
+			{
+				"orderDetailId": "7",
+				"quantity": "1",
+				"unitPrice": "27900",
+				"productName": "Aspire XC-1780系列 - i5處理器 - 8G記憶體512G SSD / Win11家用版電腦【O2021企業版 優惠組】",
+				"product": {
+					"productId": "7"
+				}
+			}
+		],
+		"member": {
+			"memberId": "2"
+		}
+	},
+	{
+		"memberOrderId": "5",
+		"orderDate": "2024-02-05",
+		"orderStatus": "已完成",
+		"totalAmount": "64699",
+		"shippingAddress": "台中市西屯區文心路三段",
+		"paymentMethod": "貨到付款",
+		"memberOrderDetails": [
+			{
+				"orderDetailId": "8",
+				"quantity": "1",
+				"unitPrice": "21900",
+				"productName": "Aspire XC-1780系列 - i5處理器 - 8G記憶體512G SSD / Win11家用版電腦【M365家庭版 優惠組】",
+				"product": {
+					"productId": "8"
+				}
+			},
+			{
+				"orderDetailId": "9",
+				"quantity": "1",
+				"unitPrice": "20899",
+				"productName": "Aspire XC-1780系列 - i5處理器 - 8G記憶體512G SSD / Win11家用版電腦【M365個人版 優惠組】",
+				"product": {
+					"productId": "9"
+				}
+			},
+			{
+				"orderDetailId": "10",
+				"quantity": "1",
+				"unitPrice": "21900",
+				"productName": "Aspire XC-1780系列 - i5處理器 - 8G記憶體512G SSD / Win11家用版電腦【24型螢幕 優惠組】",
+				"product": {
+					"productId": "10"
+				}
+			}
+		],
+		"member": {
+			"memberId": "3"
+		}
+	}
+]

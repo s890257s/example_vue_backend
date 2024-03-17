@@ -1,0 +1,66 @@
+[
+  {
+    "memberId": "1",
+    "memberName": "Amy",
+    "memberEmail": "amy@mail.com",
+    "memberPassword": "1234",
+    "memberPhone": "0977283180",
+    "accountStatus": "true",
+    "createTime": "2024-01-01",
+    "lastLoginTime": "2024-01-10",
+    "memberDetail": {
+      "memberAge": "25",
+      "memberGender": "female",
+      "birthDate": "36326",
+      "memberAddress": "台北市大安區敦化南路一段"
+    }
+  },
+  {
+    "memberId": "2",
+    "memberName": "Bob",
+    "memberEmail": "bob@mail.com",
+    "memberPassword": "1234",
+    "memberPhone": "0965022396",
+    "accountStatus": "true",
+    "createTime": "2024-01-01",
+    "lastLoginTime": "2024-01-11",
+    "memberDetail": {
+      "memberAge": "32",
+      "memberGender": "male",
+      "birthDate": "33670",
+      "memberAddress": "高雄市前鎮區成功二路"
+    }
+  },
+  {
+    "memberId": "3",
+    "memberName": "Zoe",
+    "memberEmail": "ken@mail.com",
+    "memberPassword": "1234",
+    "memberPhone": "0940150050",
+    "accountStatus": "true",
+    "createTime": "2024-01-01",
+    "lastLoginTime": "2024-01-13",
+    "memberDetail": {
+      "memberAge": "26",
+      "memberGender": "female",
+      "birthDate": "36130",
+      "memberAddress": "台中市西屯區文心路三段"
+    }
+  },
+  {
+    "memberId": "4",
+    "memberName": "Jim",
+    "memberEmail": "jim@mail.com",
+    "memberPassword": "1234",
+    "memberPhone": "0905388562",
+    "accountStatus": "true",
+    "createTime": "2024-01-01",
+    "lastLoginTime": "2024-01-12",
+    "memberDetail": {
+      "memberAge": "23",
+      "memberGender": "male",
+      "birthDate": "37144",
+      "memberAddress": "台南市中西區民族路二段"
+    }
+  }
+]

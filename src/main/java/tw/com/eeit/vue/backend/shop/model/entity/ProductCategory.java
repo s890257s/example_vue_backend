@@ -3,6 +3,7 @@ package tw.com.eeit.vue.backend.shop.model.entity;
 import java.util.Date;
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -22,7 +23,7 @@ public class ProductCategory {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer productCategoryId;
 
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "parent_id")
 	private ProductCategory parentCategory;
 

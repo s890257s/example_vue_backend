@@ -7,6 +7,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.ForeignKey;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.MapsId;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -15,8 +16,11 @@ import jakarta.persistence.Table;
 public class MemberDetail {
 
 	@Id
+	private Integer memberId;
+
 	@JoinColumn(name = "member_id", foreignKey = @ForeignKey(name = "fk_member_detail_member", foreignKeyDefinition = "FOREIGN KEY (member_id) REFERENCES Member(member_id) ON DELETE CASCADE ON UPDATE CASCADE"))
 	@OneToOne
+	@MapsId
 	private Member member;
 
 	private Integer memberAge;
@@ -31,6 +35,14 @@ public class MemberDetail {
 
 	@Column(columnDefinition = "varbinary(max)")
 	private byte[] memberPhoto;
+
+	public Integer getMemberId() {
+		return memberId;
+	}
+
+	public void setMemberId(Integer memberId) {
+		this.memberId = memberId;
+	}
 
 	public Member getMember() {
 		return member;

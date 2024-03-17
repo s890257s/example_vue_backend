@@ -1,0 +1,148 @@
+[
+	{
+		"productCategoryId": "1",
+		"sortOrder": "1",
+		"categoryName": "3C",
+		"categoryDescription": "電腦(computer)、通訊(communications)、消費電子(consumer electronics)",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "2",
+		"sortOrder": "2",
+		"categoryName": "食品",
+		"categoryDescription": "零食、飲料",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "3",
+		"sortOrder": "3",
+		"categoryName": "服飾",
+		"categoryDescription": "衣服、褲子、鞋子",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "5",
+		"parentCategory": {
+			"productCategoryId": "1"
+		},
+		"sortOrder": "1",
+		"categoryName": "電腦",
+		"categoryDescription": "桌電、筆電、周邊",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "6",
+		"parentCategory": {
+			"productCategoryId": "1"
+		},
+		"sortOrder": "2",
+		"categoryName": "通訊",
+		"categoryDescription": "手機、平板、耳麥",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "7",
+		"parentCategory": {
+			"productCategoryId": "1"
+		},
+		"sortOrder": "3",
+		"categoryName": "消費電子",
+		"categoryDescription": "電視、電話、音響",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "8",
+		"parentCategory": {
+			"productCategoryId": "2"
+		},
+		"sortOrder": "1",
+		"categoryName": "零食",
+		"categoryDescription": "糖果、餅乾",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "9",
+		"parentCategory": {
+			"productCategoryId": "2"
+		},
+		"sortOrder": "2",
+		"categoryName": "飲料",
+		"categoryDescription": "飲料、茶",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "10",
+		"parentCategory": {
+			"productCategoryId": "3"
+		},
+		"sortOrder": "1",
+		"categoryName": "衣服",
+		"categoryDescription": "各類衣物",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "11",
+		"parentCategory": {
+			"productCategoryId": "3"
+		},
+		"sortOrder": "2",
+		"categoryName": "褲子",
+		"categoryDescription": "各類褲子",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "12",
+		"parentCategory": {
+			"productCategoryId": "3"
+		},
+		"sortOrder": "3",
+		"categoryName": "鞋子",
+		"categoryDescription": "各類鞋子",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "13",
+		"parentCategory": {
+			"productCategoryId": "6"
+		},
+		"sortOrder": "1",
+		"categoryName": "Apple",
+		"categoryDescription": "蘋果",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04",
+		"updateTime": ""
+	},
+	{
+		"productCategoryId": "14",
+		"parentCategory": {
+			"productCategoryId": "6"
+		},
+		"sortOrder": "2",
+		"categoryName": "Samsung",
+		"categoryDescription": "三星",
+		"categoryStatus": "true",
+		"createTime": "2022-01-04"
+	}
+]

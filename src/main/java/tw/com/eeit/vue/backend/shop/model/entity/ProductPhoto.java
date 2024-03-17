@@ -11,11 +11,10 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table
-public class ProductImage {
+public class ProductPhoto {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer productPhotoId;
+	private String productPhotoId;
 
 	@Column(columnDefinition = "varbinary(max)")
 	private byte[] productPhoto;
@@ -26,11 +25,12 @@ public class ProductImage {
 	@JoinColumn(name = "product_id")
 	private Product product;
 
-	public Integer getProductPhotoId() {
+
+	public String getProductPhotoId() {
 		return productPhotoId;
 	}
 
-	public void setProductPhotoId(Integer productPhotoId) {
+	public void setProductPhotoId(String productPhotoId) {
 		this.productPhotoId = productPhotoId;
 	}
 

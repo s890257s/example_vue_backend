@@ -1,6 +1,7 @@
 package tw.com.eeit.vue.backend.shop.model.entity;
 
 import java.util.Date;
+import java.util.List;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -8,6 +9,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -30,6 +32,9 @@ public class Member {
 
 	@OneToOne(mappedBy = "member", cascade = CascadeType.ALL)
 	private MemberDetail memberDetail;
+
+	@OneToMany(mappedBy = "member")
+	private List<MemberOrder> memberOrders;
 
 	private String memberPhone;
 
@@ -109,6 +114,14 @@ public class Member {
 
 	public void setLastLoginTime(Date lastLoginTime) {
 		this.lastLoginTime = lastLoginTime;
+	}
+
+	public List<MemberOrder> getMemberOrders() {
+		return memberOrders;
+	}
+
+	public void setMemberOrders(List<MemberOrder> memberOrders) {
+		this.memberOrders = memberOrders;
 	}
 
 }

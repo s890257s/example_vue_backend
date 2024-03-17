@@ -3,6 +3,7 @@ package tw.com.eeit.vue.backend.shop.model.entity;
 import java.util.Date;
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -41,8 +42,11 @@ public class Product {
 	@JoinColumn(name = "product_category_id")
 	private ProductCategory productCategory;
 
+	@OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
+	private List<ProductPhoto> productPhotos;
+
 	@OneToMany(mappedBy = "product")
-	private List<ProductImage> productImages;
+	private List<MemberOrderDetail> memberOrderDetails;
 
 	public Integer getProductId() {
 		return productId;
@@ -116,12 +120,12 @@ public class Product {
 		this.productCategory = productCategory;
 	}
 
-	public List<ProductImage> getProductImages() {
-		return productImages;
+	public List<ProductPhoto> getProductPhotos() {
+		return productPhotos;
 	}
 
-	public void setProductImages(List<ProductImage> productImages) {
-		this.productImages = productImages;
+	public void setProductPhotos(List<ProductPhoto> productPhotos) {
+		this.productPhotos = productPhotos;
 	}
 
 }
