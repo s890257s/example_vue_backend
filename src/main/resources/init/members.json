@@ -9,9 +9,9 @@
     "createTime": "2024-01-01",
     "lastLoginTime": "2024-01-10",
     "memberDetail": {
-      "memberAge": "25",
+      "memberAge": "23",
       "memberGender": "female",
-      "birthDate": "36326",
+      "birthDate": "2000-10-01",
       "memberAddress": "台北市大安區敦化南路一段"
     }
   },
@@ -25,25 +25,25 @@
     "createTime": "2024-01-01",
     "lastLoginTime": "2024-01-11",
     "memberDetail": {
-      "memberAge": "32",
+      "memberAge": "33",
       "memberGender": "male",
-      "birthDate": "33670",
+      "birthDate": "1991-03-01",
       "memberAddress": "高雄市前鎮區成功二路"
     }
   },
   {
     "memberId": "3",
     "memberName": "Zoe",
-    "memberEmail": "ken@mail.com",
+    "memberEmail": "zoe@mail.com",
     "memberPassword": "1234",
     "memberPhone": "0940150050",
     "accountStatus": "true",
     "createTime": "2024-01-01",
     "lastLoginTime": "2024-01-13",
     "memberDetail": {
-      "memberAge": "26",
+      "memberAge": "25",
       "memberGender": "female",
-      "birthDate": "36130",
+      "birthDate": "1998-06-06",
       "memberAddress": "台中市西屯區文心路三段"
     }
   },
@@ -57,9 +57,9 @@
     "createTime": "2024-01-01",
     "lastLoginTime": "2024-01-12",
     "memberDetail": {
-      "memberAge": "23",
+      "memberAge": "63",
       "memberGender": "male",
-      "birthDate": "37144",
+      "birthDate": "1960-09-24",
       "memberAddress": "台南市中西區民族路二段"
     }
   }

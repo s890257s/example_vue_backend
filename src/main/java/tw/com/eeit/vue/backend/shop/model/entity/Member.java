@@ -17,6 +17,15 @@ import jakarta.persistence.Table;
 @Table
 public class Member {
 
+	public Member() {
+		super();
+	}
+
+	public Member(Integer memberId) {
+		super();
+		this.memberId = memberId;
+	}
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer memberId;
@@ -35,6 +44,9 @@ public class Member {
 
 	@OneToMany(mappedBy = "member")
 	private List<MemberOrder> memberOrders;
+
+	@OneToMany(mappedBy = "member")
+	private List<ShoppingCartItem> shoppingCartItems;
 
 	private String memberPhone;
 

@@ -24,6 +24,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+ 
   </head>
   <body>
     <header class="p-3 text-bg-dark mb-3">
@@ -35,18 +37,22 @@
             class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
           >
             <li>
-              <a href="/index.html" class="nav-link px-2 text-secondary"
+              <a href="/home_page.html" class="nav-link px-2 text-secondary"
                 >首頁</a
               >
             </li>
             <li>
-              <a href="/shop.html" class="nav-link px-2 text-white">商城</a>
+              <a href="/shop_page.html" class="nav-link px-2 text-white"
+                >商城</a
+              >
             </li>
             <li>
-              <a href="/cart.html" class="nav-link px-2 text-white">購物車</a>
+              <a href="/shopping_cart.html" class="nav-link px-2 text-white"
+                >購物車</a
+              >
             </li>
             <li>
-              <a href="/orders.html" class="nav-link px-2 text-white"
+              <a href="/member_orders.html" class="nav-link px-2 text-white"
                 >所有訂單</a
               >
             </li>
@@ -58,57 +64,42 @@
           </ul>
 
           <div class="text-end">
-            <a href="/account.html" class="text-decoration-none">
+            <a href="/login_page.html" class="text-decoration-none">
               <button type="button" class="btn btn-outline-light me-2">
                 登入
               </button>
             </a>
 
-            <a href="/account.html" class="text-decoration-none">
-              <button type="button" class="btn btn-warning">註冊</button></a
-            >
-            <a href="/profile.html" class="text-decoration-none">
+            <a href="/member_profile.html" class="text-decoration-none">
               <button type="button" class="btn btn-warning">
                 使用者名稱
               </button></a
             >
-            <img src="/user-type-B-04.png" alt="" width="8%" />
+            <img src="/user-type-B-04.png" width="8%" class="mx-2" />
+
+            <button type="button" class="btn btn-outline-light">登出</button>
+
           </div>
         </div>
       </div>
     </header>
-    <main class="container">
-      <table class="table table-striped table-hover">
-        <thead>
-          <tr>
-            <th scope="col">訂單ID</th>
-            <th scope="col">訂購日期</th>
-            <th scope="col">狀態</th>
-            <th scope="col">總金額</th>
-            <th scope="col">地址</th>
-            <th scope="col">付款方式</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>001</td>
-            <td>2024-1-1</td>
-            <td>已完成</td>
-            <td>25000</td>
-            <td>台北市大安區敦化南路一段</td>
-            <td>貨到付款</td>
-          </tr>
-          <tr>
-            <td>002</td>
-            <td>2024-1-1</td>
-            <td>已完成</td>
-            <td>25000</td>
-            <td>台北市大安區敦化南路一段</td>
-            <td>貨到付款</td>
-          </tr>
-        </tbody>
-      </table>
+
+    <main class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+            <img src="/not_found.jpg" style="width: 30%" />
+
+            <h1>Oops!</h1>
+            <div class="m-3">出了點問題...找不到你的頁面哦</div>
+            <div>
+              <a href="/" class="btn btn-primary btn-lg">回首頁 </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer class="pt-3 pb-1 my-3 color bg-dark">
       <p class="text-center text-light">Copyright © 2024 Allen Hong</p>
     </footer>

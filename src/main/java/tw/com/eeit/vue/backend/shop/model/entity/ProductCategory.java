@@ -3,6 +3,9 @@ package tw.com.eeit.vue.backend.shop.model.entity;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -25,6 +28,7 @@ public class ProductCategory {
 
 	@ManyToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "parent_id")
+	@JsonIgnoreProperties(value = "parentCategory")
 	private ProductCategory parentCategory;
 
 	private Integer sortOrder;
@@ -42,6 +46,7 @@ public class ProductCategory {
 	private Date updateTime;
 
 	@OneToMany(mappedBy = "productCategory")
+	@JsonIgnore
 	private List<Product> products;
 
 	public Integer getProductCategoryId() {

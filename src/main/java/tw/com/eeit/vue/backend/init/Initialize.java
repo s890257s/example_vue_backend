@@ -64,7 +64,7 @@ public class Initialize implements ApplicationListener<ContextRefreshedEvent> {
 				memberDetail.setMember(member);
 
 				BufferedInputStream bis = new BufferedInputStream(new FileInputStream(
-						ResourceUtils.getFile("classpath:init\\image\\members\\user-type-B-0%s.png".formatted(i + 1))));
+						ResourceUtils.getFile("classpath:init\\image\\members\\user-type-B-0%s.png".formatted(i + 2))));
 				byte[] bytes = bis.readAllBytes();
 				bis.close();
 				memberDetail.setMemberPhoto(bytes);

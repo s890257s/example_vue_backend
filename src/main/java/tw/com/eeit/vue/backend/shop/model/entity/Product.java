@@ -3,6 +3,8 @@ package tw.com.eeit.vue.backend.shop.model.entity;
 import java.util.Date;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,6 +19,15 @@ import jakarta.persistence.Table;
 @Entity
 @Table
 public class Product {
+
+	public Product() {
+		super();
+	}
+
+	public Product(Integer productId) {
+		super();
+		this.productId = productId;
+	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -46,7 +57,11 @@ public class Product {
 	private List<ProductPhoto> productPhotos;
 
 	@OneToMany(mappedBy = "product")
+	@JsonIgnore
 	private List<MemberOrderDetail> memberOrderDetails;
+
+	@OneToMany(mappedBy = "product")
+	private List<ShoppingCartItem> shoppingCartItems;
 
 	public Integer getProductId() {
 		return productId;

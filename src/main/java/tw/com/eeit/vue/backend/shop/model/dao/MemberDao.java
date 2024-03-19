@@ -6,4 +6,5 @@ import tw.com.eeit.vue.backend.shop.model.entity.Member;
 
 public interface MemberDao extends JpaRepository<Member, Integer> {
 
+	public Member findByMemberEmailAndMemberPassword(String email, String password);
 }
